@@ -1,7 +1,9 @@
 # HTML Project
 
 # HTML Advanced
-![Web Development Class]
+
+![Web Development Class](file-NQNpuJwnYQo5PwCRXYfgj8PI.png)
+
 ## Resources
 
 Read or watch:
