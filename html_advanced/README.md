@@ -1,4 +1,4 @@
-# HTML Project
+# HTML Advanced
 
 ![Advanced HTML class](HTMLadvanced.png)
 
