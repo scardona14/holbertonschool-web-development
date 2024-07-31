@@ -2,7 +2,9 @@
 
 # HTML Advanced
 
-![Web Development Class](./file-NQNpuJwnYQo5PwCRXYfgj8PI (1))
+![Web Development Class](# HTML Advanced Class
+
+![Web Development Class](file-NQNpuJwnYQo5PwCRXYfgj8PI.png)
 
 ## Resources
 
