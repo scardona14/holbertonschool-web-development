@@ -1,6 +1,6 @@
 # HTML Advanced
 
-![Web Development Class](HTMLadvanced.png)
+![Web Development Class](./HTMLadvanced.png)
 
 ## Resources
 
