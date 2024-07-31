@@ -1,5 +1,7 @@
 # HTML Project
 
+![Advanced HTML class](HTMLadvanced.png)
+
 ## Resources
 
 Read or watch:
