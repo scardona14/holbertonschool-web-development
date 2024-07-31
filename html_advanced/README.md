@@ -1,7 +1,5 @@
 # HTML Advanced
 
-![Web Development Class](HTMLadvanced.png)
-
 ## Resources
 
 Read or watch:
