@@ -1,7 +1,7 @@
 # HTML Project
 
 # HTML Advanced
-![Web Development Class](file-NQNpuJwnYQo5PwCRXYfgj8PI.png)
+![Web Development Class](./file-NQNpuJwnYQo5PwCRXYfgj8PI.png)
 
 ## Resources
 
