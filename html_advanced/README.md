@@ -2,7 +2,7 @@
 
 # HTML Advanced
 
-![Web Development Class](./file-NQNpuJwnYQo5PwCRXYfgj8PI.png)
+![Web Development Class](path/to/HTML%20advanced.png)
 
 ## Resources
 
