@@ -1,8 +1,8 @@
-# Welcome to My GitHub Profile!
+# Welcome to My GitHub Profile Specialization!
 
 ## About Me
 
-Hello! I'm [Your Name], a passionate web developer specializing in creating dynamic and responsive web applications. My journey in web development began with a curiosity for how websites work, and it has since grown into a fulfilling career. I enjoy building projects that not only meet user needs but also provide an engaging user experience.
+Hello! I'm Sean A. Cardona, a passionate web developer specializing in creating dynamic and responsive web applications. My journey in web development began with a curiosity for how websites work, and it has since grown into a fulfilling career. I enjoy building projects that meet user needs and provide an engaging user experience.
 
 ## Specialization
 
