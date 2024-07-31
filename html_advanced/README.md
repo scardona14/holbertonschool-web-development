@@ -1,8 +1,6 @@
-# HTML Project
-
 # HTML Advanced
 
-![Web Development Class](path/to/HTML%20advanced.png)
+![Web Development Class](HTMLadvanced.png)
 
 ## Resources
 
