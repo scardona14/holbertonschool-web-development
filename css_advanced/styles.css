@@ -1,0 +1,503 @@
+:root {
+    --purple: #C271FF;
+    --white: #FFFFFF;
+    --black: #071629;
+    --transparent-black: rgba(7, 22, 41, 0.50);
+}
+
+body {
+    background-color: var(--white);
+    width: 1440px;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+section h1 {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.purple-text {
+    color: var(--purple);
+    font-weight: bold;
+}
+
+.round-image {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 150px;
+}
+
+/* header section*/
+
+header {
+    width: inherit;
+    position: absolute;
+    top: 35px;
+    color: var(--white);
+    z-index: 2;
+}
+
+#header-div {
+    width: 1103px;
+    height: 29px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-links {
+    width: 234px;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+header a {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration: none;
+    color: var(--white);
+}
+
+/* banner section */
+
+#banner-section {
+    color: var(--white);
+    text-align: center;
+    background-color: var(--black);
+}
+#banner-section * {
+    margin: 0;
+}
+
+#banner-section > * {
+    z-index: 1;
+    position: relative;
+ }
+
+#banner-section h1 {
+    font-size: 120px;
+    line-height: 150px;
+    font-weight: 700;
+    padding-top: 220px;
+}
+
+
+
+#banner-bg {
+    filter: grayscale(100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 989px;
+    width: 1440px;
+    background: linear-gradient(to bottom, transparent 1%, var(--black) 100%);
+}
+
+#banner-text {
+    width: 253px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+#banner-button {
+    margin-top: 38px;
+    box-shadow: 0px 0px 20px 0px #000000;
+}
+
+.register-button {
+    color: var(--white);
+    background-color: var(--purple);
+    width: 162px;
+    height: 44px;
+    border: none;
+    border-radius: 22px;
+}
+
+#banner-section h2 {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+    color: var(--white);
+}
+
+/* pros section */
+
+#pros-section {
+    height: 364px;
+    margin-top: 168px;
+    padding-bottom: 98px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#pros-section h2 {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+#pros-quotes {
+    display: flex;
+    justify-content: space-between;
+    width: 1009px;
+    height: 247px;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#pro {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 900;
+    margin-top: 2px;
+}
+
+.pro-quote {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: normal;
+    margin-top: 1px;
+}
+
+/* quotes section */
+
+#quotes-section {
+    background-color: var(--purple);
+    height: 392px;
+    color: var(--white);
+    font-size: 22px;
+    line-height: 34px;
+    display: flex;
+}
+
+#quote-div {
+    width: 943px;
+    height: 160px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+ #quote-div img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 160px;
+    width: 160px;
+ }
+#quote-block {
+    width: 730px;
+    height: 158px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+
+#quote-auth {
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 24px;
+}
+
+#auth-profession {
+    font-style: italic;
+    margin: 0;
+}
+
+/* videos section */
+
+#videos-section {
+    text-align: center;
+    color: var(--black);
+    width: 1228px;
+    height: 450px;
+    margin: auto;
+    margin-top: 87px;
+    margin-bottom: 87px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#videos-container {
+    background-color: white;
+    display: flex;
+    gap: 30px;
+    text-align: left;
+}
+
+.video-container {
+    width: 255px;
+    height: 335px;
+}
+
+.video-container * {
+    margin: 0;
+}
+
+.video-container > * {
+    margin: 0px 0px 0px 13px;
+}
+.video {
+    position: relative;
+    display: inline-block;
+}
+.video-img {
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-bottom: 18px;
+    width: 255px;
+    height: 154px;
+}
+
+.play-button {
+    size: 64px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    pointer-events: none;
+}
+
+.video-container h2 {
+    color: var(--black);
+    height: 48px;
+    margin-bottom: 13px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.video-desc {
+    color: var(--transparent-black);
+    height: 48px;
+    margin-bottom: 13px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.author-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.author-img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 30px;
+    width: 30px;
+}
+
+.video-author-name, .video-rating p {
+    color: var(--purple);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.video-author-name {
+    margin-left: 13px;
+}
+
+.video-rating {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 22px;
+}
+
+.video-rating * {
+    margin: 0;
+    padding: 0;
+}
+
+.stars-ratings {
+    display: flex;
+    width: 107px;
+    height: 15px;
+    margin-top: 8px;
+    justify-content: space-between;
+}
+
+/* membership section */
+
+#membership-section {
+    color: var(--white);
+    background-color: var(--black);
+    text-align: center;
+    height: 502px;
+    box-sizing: border-box;
+    padding-top: 70px;
+    padding-bottom: 52px;
+    display: flex;
+    flex-direction: column;
+}
+
+#membership-section * {
+    box-sizing: content-box;
+}
+
+#membership-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+    margin: 58px auto 85px;
+}
+
+.membership img {
+    height: 35px;
+    margin-bottom: 27px;
+}
+
+.membership-name {
+    font-weight: 600;
+    size: 18px;
+    line-height: 26px;
+    margin-bottom: 13px;
+}
+
+.membership p {
+    width: 215px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+#membership-button {
+    margin: auto;
+}
+
+/* faq section */
+
+#FAQ-section {
+    margin: auto;
+    margin-top: 67px;
+    margin-bottom: 84px;
+    width: 920px;
+    height: 707px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--black);
+}
+
+#FAQ-section * {
+    margin: 0;
+}
+
+#FAQ-section {
+    margin: auto;
+    margin-top: 67px;
+    margin-bottom: 84px;
+    width: 920px;
+    height: 707px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    color: var(--black);
+}
+
+#FAQ-section * {
+    margin: 0;
+}
+
+#FAQ-title {
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 75px;
+    align-self: center;
+}
+
+#FAQ-content {
+    display: flex;
+    flex-direction: column;
+    gap: 74px;
+}
+
+.FAQ-row-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.FAQ-item-block {
+    width: 350px;
+    height: 242px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.FAQ-question {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20.11px;
+}
+
+.FAQ-answer {
+    color: var(--transparent-black);
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* footer section */
+
+footer {
+    display: flex;
+    height: 249px;
+    background-color: var(--black);
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 0 10% 0 10%;
+}
+
+#footer-row-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+#footer-sites {
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-copyright {
+    color: rgba(255, 255, 255, 0.502);
+    text-align: center;
+    font-size: 12px;
+    line-height: 15.08px;
+    margin-bottom: 39px;
+}
